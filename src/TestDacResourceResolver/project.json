@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "TestDacResourceResolver Console Application",
+  "authors": [ "Paul" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final"
+  },
+
+  "commands": {
+    "TestDacResourceResolver": "TestDacResourceResolver"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.SqlServer.Dac": "1.0.0-*"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D02799A6-4A22-4E1D-B0C2-6F995CB6888C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0ABA025B-3F1A-4637-BB5C-86273D9A768C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestDacResourceResolver", "src\TestDacResourceResolver\TestDacResourceResolver.xproj", "{B324D9C9-1FC3-4085-9D21-74CA92137856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B324D9C9-1FC3-4085-9D21-74CA92137856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B324D9C9-1FC3-4085-9D21-74CA92137856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B324D9C9-1FC3-4085-9D21-74CA92137856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B324D9C9-1FC3-4085-9D21-74CA92137856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B324D9C9-1FC3-4085-9D21-74CA92137856} = {D02799A6-4A22-4E1D-B0C2-6F995CB6888C}
+	EndGlobalSection
+EndGlobal

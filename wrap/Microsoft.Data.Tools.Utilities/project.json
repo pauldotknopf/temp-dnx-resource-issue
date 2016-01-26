@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "dnx451": {
+      "bin": {
+        "assembly": "C:\\Users\\Paul\\Documents\\Visual Studio 2015\\Projects\\TestDacResourceResolver\\src\\Dependencies\\Microsoft.Data.Tools.Utilities.dll"
+      }
+    }
+  }
+}
